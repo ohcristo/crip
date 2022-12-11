@@ -6,8 +6,9 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Centro',nome:'Cristiano' });
 });
 
-router.get('/test', function(req, res, next) {
+router.post('/test', function(req, res, next) {
   res.render('test', { title: 'test',nome:'Cristiano' , cibo:'cioccolato'});
 });
+
 
 module.exports = router;
