@@ -11,3 +11,12 @@ a {
   background-color: yellow;
   color: black;
 }
+
+.txcent{
+  text-align: center;
+  margin: 0px;
+}
+
+footer{
+  bottom: 0px;
+}
