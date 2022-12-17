@@ -1,0 +1,7 @@
+extends layout
+
+block content 
+    h2 Inport 
+    form(action="/inter/inport", method="post", enctype='multipart/form-data') 
+        input(type="file", name="upload")
+        input(type="submit", value="button")
