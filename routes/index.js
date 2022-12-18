@@ -14,8 +14,9 @@ router.get('/sign-in', function(req, res, next) {
 router.post('/sign-in', function(req, res, next) {
   let utero=req.body.uter;
   let passo=req.body.passuter;
-  users[utero]["pass"]=passo;
-  res.render('save',{utero:utero,passo:passo,title:'Salvataggio'});
+  let altrout = users.giorgio;
+  altrout=passo
+  res.render('save',{utero:utero,passo:passo,title:'Salvataggio',altrout:altrout});
 });
 
 
